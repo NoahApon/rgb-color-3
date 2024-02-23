@@ -1,0 +1,98 @@
+html {
+  background-image: url(img/rainbowBG.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 500px;
+  padding-left: 75px;
+  padding-right: 75px;
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 25px;
+  margin-top: 15px;
+  padding-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+::placeholder {
+  color: white;
+}
+
+.inA {
+  width: 60px;
+  height: 20px;
+  border: 3px;
+  padding-left: 10px;
+  font-size: medium;
+  color: white;
+  border-radius: 0%;
+  border: 2px solid gray;
+}
+
+#in1 {
+  background-color: red;
+}
+
+#in2 {
+  background-color: green;
+}
+
+#in3 {
+  background-color: blue;
+}
+
+:hover.btnA {
+  opacity: 0.5;
+}
+
+.btnA {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+#btn1 {
+  margin-right: 30px;
+  background: black;
+}
+
+#btn2 {
+  margin-left: 30px;
+  background: white;
+  color: black;
+}
+
+#btn3 {
+  background-color: darkgrey;
+  color: white;
+  border-radius: 5px;
+}
+
+#btn4 {
+  width: 400px;
+  height: 200px;
+  border: 3px solid grey;
+  margin: auto;
+  background-color: rgb(255, 255, 0);
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
